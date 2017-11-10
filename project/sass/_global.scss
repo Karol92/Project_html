@@ -1,0 +1,65 @@
+body{
+  margin:0;
+}
+.font_global {
+  font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.bot__line {
+  border-top: 5px solid white;
+  max-width: 250px;
+  margin: 25px auto 30px;
+  font-family: FontAwesome;
+}
+
+.bot__line__black {
+  @extend .bot__line;
+  border-top: 5px solid #2c3e50;
+}
+
+h1, h2, h3 {
+  font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  float: none;
+  margin: 20px auto 0;
+  display: block;
+}
+
+.text__center {
+  text-align: center !important;
+  font-size: 50px;
+  color: #2c3e50;
+  overflow: auto;
+}
+li {
+  list-style: none;
+}
+ul {
+  height: 100px;
+}
+.about__text {
+  @extend .font_global;
+  float: left;
+  text-align: center;
+  max-width: 500px;
+  font-size: 15px;
+  margin: 10px 120px;
+}
+
+.footer__text {
+  text-align: center;
+  color: white;
+  margin: 50px 150px;
+  width: 40%;
+  @extend .font_global;
+  font-weight: 300;
+}
+.main_container_about{
+  height: 400px;
+  background-color: #18bc9c;
+  margin: 100px 0;
+}

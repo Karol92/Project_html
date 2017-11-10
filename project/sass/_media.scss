@@ -1,0 +1,14 @@
+.social__media{
+  font-size: 60px;
+  color: white;
+  cursor: pointer;
+  &:hover{
+    color: #18bc9c;
+
+  }
+}
+.icons{
+  list-style: none;
+  float: left;
+  margin: 10px;
+}
